@@ -1,72 +1,37 @@
-**Live Link:** https://l-2-a-4.vercel.app/
+**Live Link:**  https://book-catalog-backend-mongoose.vercel.app/api/v1
 
 **Application Routes:**
 
 **Main Part**
 
 **Auth (User)**
-LOGIN:
 
-    "phoneNumber": "01891662526",
-    "password": "jibonekiase"
+https://book-catalog-backend-mongoose.vercel.app/api/v1/auth/login (POST)
 
-https://l-2-a-4.vercel.app/api/v1/auth/login (POST)
+https://book-catalog-backend-mongoose.vercel.app/api/v1/auth/signup (POST)
 
-https://l-2-a-4.vercel.app/api/v1/auth/login (POST)
-
-https://l-2-a-4.vercel.app/api/v1/auth/refresh-token (POST)
-
-**Auth (Admin)**
-LOGIN:
-
-        "phoneNumber": "01711111111",
-        "password":"amiadminbujheshunekothakoiyo"
-
-https://l-2-a-4.vercel.app/api/v1/admins/create-admin(POST)
-
-https://l-2-a-4.vercel.app/api/v1/admins/login(POST)
+https://book-catalog-backend-mongoose.vercel.app/api/v1/auth/refresh-token (POST)
 
 **User**
-ID: 649edf2605ac87dd97a7d5db
 
-https://l-2-a-4.vercel.app/api/v1/users (GET)
+https://book-catalog-backend-mongoose.vercel.app/api/v1/users/652754728b728112b7d48fba (GET)
 
-https://l-2-a-4.vercel.app/api/v1/users/649edf2605ac87dd97a7d5db (Single GET)
+**Books**
 
-https://l-2-a-4.vercel.app/api/v1/users/649edf2605ac87dd97a7d5db (PATCH)
+https://book-catalog-backend-mongoose.vercel.app/api/v1/books (GET)
 
-https://l-2-a-4.vercel.app/api/v1/users/649edf2605ac87dd97a7d5db (DELETE)
+https://book-catalog-backend-mongoose.vercel.app/api/v1/books/6527354d58a032612c92fd25 (Single GET)
 
-**Cows**
+https://book-catalog-backend-mongoose.vercel.app/api/v1/books/6527354d58a032612c92fd25 (PATCH)
 
-https://l-2-a-4.vercel.app/api/v1/cows/648d7b519c8822fb144fe3ee (POST)
+https://book-catalog-backend-mongoose.vercel.app/api/v1/books/review/6527354d58a032612c92fd25 (PATCH)
 
-https://l-2-a-4.vercel.app/api/v1/cows(GET)
+https://book-catalog-backend-mongoose.vercel.app/api/v1/books/6527354d58a032612c92fd25 (DELETE)
 
-https://l-2-a-4.vercel.app/api/v1/cows/648d7b519c8822fb144fe3ee (Single GET)
+**Wish List **
 
-https://l-2-a-4.vercel.app/api/v1/cows/648d7b519c8822fb144fe3ee (PATCH)
+https://book-catalog-backend-mongoose.vercel.app/api/v1/wish-list/652754728b728112b7d48fba (GET)
 
-https://l-2-a-4.vercel.app/api/v1/cows/648d7b519c8822fb144fe3ee(DELETE)
+https://book-catalog-backend-mongoose.vercel.app/api/v1/wish-list/ (POST)
 
-**Orders**
 
-https://l-2-a-4.vercel.app/api/v1/orders (POST)
-
-https://l-2-a-4.vercel.app/api/v1/orders (GET)
-
-**_Bonus Part_**
-
-**Admin**
-
-https://l-2-a-4.vercel.app/api/v1/create-admin (POST)
-
-**My Profile**
-
-https://l-2-a-4.vercel.app/api/v1/my-profile(GET)
-
-https://l-2-a-4.vercel.app/api/v1/my-profile(PATCH)
-
-**Order**
-
-https://l-2-a-4.vercel.app/api/v1/orders/649fd1432acec97de36dd299 (GET)
